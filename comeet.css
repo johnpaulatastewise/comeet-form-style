@@ -1,0 +1,74 @@
+.submit-button {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        min-width: 210px;
+        padding: 0 24px;
+        padding-top: 15px;
+        padding-bottom: 12px;
+        font-family: Avenir LT Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+        -webkit-letter-spacing: 0.02em;
+        -moz-letter-spacing: 0.02em;
+        -ms-letter-spacing: 0.02em;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        background-color: #ee624d;
+        border-radius: 7px;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        -webkit-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        transform: translateZ(0);
+        min-width: auto;
+}
+
+.submit-button  {
+    margin: auto;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+input[type*='text'] {
+    width: 100%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: rgb(243, 243, 241);
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgb(25, 16, 12);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(25, 16, 12, 0.3);
+    outline: none;
+}
+
+@media (max-width: 1600px) {
+    .submit-button > button {
+        width: fit-content;
+        padding-top: 15px;
+        padding-bottom: 14px;
+        font-family: Axiforma;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgb(255, 241, 220);
+        background-color: rgb(228, 48, 37);
+        border-radius: 0px 40px;
+        border: none;
+        outline: none;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+    }
+}
